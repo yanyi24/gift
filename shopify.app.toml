@@ -3,7 +3,7 @@
 client_id = "901b87fa3b7c785895482cc08ff69d2a"
 name = "gift"
 handle = "gift-31"
-application_url = "https://sizes-gzip-stan-breakfast.trycloudflare.com"
+application_url = "https://state-daughters-research-demonstrated.trycloudflare.com"
 embedded = true
 
 [build]
@@ -13,13 +13,13 @@ include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "read_products,write_discounts,write_products"
 
 [auth]
 redirect_urls = [
-  "https://sizes-gzip-stan-breakfast.trycloudflare.com/auth/callback",
-  "https://sizes-gzip-stan-breakfast.trycloudflare.com/auth/shopify/callback",
-  "https://sizes-gzip-stan-breakfast.trycloudflare.com/api/auth/callback"
+  "https://state-daughters-research-demonstrated.trycloudflare.com/auth/callback",
+  "https://state-daughters-research-demonstrated.trycloudflare.com/auth/shopify/callback",
+  "https://state-daughters-research-demonstrated.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
